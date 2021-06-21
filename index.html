@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sunnyside</title>
+    <link rel="stylesheet" type="text/css" href="SunnyStyle.css">
+    <link rel="shortcut icon" type="image/x-icon" href="sunnyside-agency-landing-page-main/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="orange-container">
+        <div class="orange">
+            <h2>sunnyside</h2>
+            <div class="info">
+                <p>about</p>
+                <p>services</p>
+                <p>projects</p>
+                <p class="contact">contact</p>
+            </div>
+        </div>
+        <div class="orange-middle">
+            <p>we are creatives</p>
+        </div>
+        <div class="arrow">
+            <img src="sunnyside-agency-landing-page-main/images/icon-arrow-down.svg" alt="arrow">
+        </div>
+    </div>
+    <div class="egg-container">
+        <div class="egg-msg-container">
+            <div class="egg-msg">
+                <p>Transform your brand</p>
+                <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                <p id="egg-learnmore">learn more</p>
+                <div class="empty-yellow"></div>
+            </div>
+        </div>
+        <div class="egg-pic"></div>
+    </div>
+    <div class="stand-out-container">
+        <div class="stand-out-pic">
+        </div>
+        <div class="stand-out-msg-container">
+            <div class="stand-out-msg">
+                <p>Stand out to the right audience</p>
+                <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+                <p id="stand-learnmore">learn more</p>
+                <div class="empty-red"></div>
+            </div>
+        </div>
+    </div>
+    <div class="graphic-photo-container">
+        <div class="graphic-msg-container">
+            <div class="graphic-msg">
+                <p>Graphic Design</p>
+                <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            </div>
+        </div>
+        <div class="photo-msg-container">
+            <div class="photo-msg">
+                <p>Photography</p>
+                <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial-container">
+        <div class="testimonial-box">
+            <h3>client testimonials</h3>
+            <div class="testimonials">
+                <div class="testimonial-1">
+                    <img src="sunnyside-agency-landing-page-main/images/image-emily.jpg" alt="emily">
+                    <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                    <p>Emily R.</p>
+                    <p>Market Director</p>
+                </div>
+                <div class="testimonial-2">
+                    <img src="sunnyside-agency-landing-page-main/images/image-thomas.jpg" alt="thomas">
+                    <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+                    <p>Thomas S.</p>
+                    <p>Cheif Operating Officer</p>
+                </div>
+                <div class="testimonial-3">
+                    <img src="sunnyside-agency-landing-page-main/images/image-jennie.jpg" alt="jennie">
+                    <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+                    <p>Jennie F.</p>
+                    <p>Business Owner</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="four-image-container">
+        <div class="bottle-plate">
+            <img class="bottle" src="sunnyside-agency-landing-page-main/images/desktop/image-gallery-milkbottles.jpg" alt="bottle">
+            <img class="plate" src="sunnyside-agency-landing-page-main/images/desktop/image-gallery-orange.jpg" alt="plate">
+        </div>
+        <div class="cone-cube">
+            <img class="cone" src="sunnyside-agency-landing-page-main/images/desktop/image-gallery-cone.jpg" alt="cone">
+            <img class="cube" src="sunnyside-agency-landing-page-main/images/desktop/image-gallery-sugarcubes.jpg" alt="cube">
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer-box">
+            <p><span>sunnyside</span></p>
+            <div class="footer-text">
+                <p>About</p>
+                <p>Services</p>
+                <p>Projects</p>
+            </div>
+            <div class="footer-img">
+                <img src="sunnyside-agency-landing-page-main/images/icon-facebook.svg" alt="facebook">
+                <img src="sunnyside-agency-landing-page-main/images/icon-instagram.svg" alt="instagram">
+                <img src="sunnyside-agency-landing-page-main/images/icon-twitter.svg" alt="twitter">
+                <img src="sunnyside-agency-landing-page-main/images/icon-pinterest.svg" alt="pinterest">
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $("#egg-learnmore").mouseenter(function() {
+            $(".empty-yellow").css("animation-name", "slide").css("background", "rgba(255, 255, 0, 0.7)");
+            $("#egg-learnmore").css("cursor", "pointer");
+        });
+        $("#egg-learnmore").mouseleave(function() {
+            $(".empty-yellow").css("animation-name", "none").css("background", "rgba(255, 255, 0, 0.3)");
+        });
+
+        $("#stand-learnmore").mouseenter(function() {
+            $(".empty-red").css("animation-name", "slide").css("background", "rgba(255, 0, 0, 0.7)");
+            $("#stand-learnmore").css("cursor", "pointer");
+        });
+        $("#stand-learnmore").mouseleave(function() {
+            $(".empty-red").css("animation-name", "none").css("background", "rgba(255, 0, 0, 0.3)");
+        });
+    </script>
+</body>
+</html>
