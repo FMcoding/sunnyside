@@ -150,10 +150,9 @@
             $(".empty-red").css("animation-name", "none").css("background", "rgba(255, 0, 0, 0.3)");
         });
 
-        var t = 0;
-
         if ($(window).width() < 600) {
             $(".info").hide()
+            var t = 0;
             $(".menu").click(function(){
                 if (t = 0) {
                     $(".info-mobile-container").show();
