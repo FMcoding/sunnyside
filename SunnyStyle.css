@@ -84,6 +84,8 @@ section {
     width: 100%;
     position: absolute;    
     visibility: visible;
+    z-index: 2;
+    border: 2px solid red;
 }
 
 .info-mobile {
