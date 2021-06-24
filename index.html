@@ -17,6 +17,7 @@
             <div class="orange-container">
                 <div class="orange">
                     <h2>sunnyside</h2>
+                    <p class="menu">≡</p>
                     <div class="info">
                         <p>about</p>
                         <p>services</p>
@@ -138,6 +139,10 @@
         $("#stand-learnmore").mouseleave(function() {
             $(".empty-red").css("animation-name", "none").css("background", "rgba(255, 0, 0, 0.3)");
         });
+
+        if ($(window).width() < 600) {
+            $(".info").hide()
+        }
     </script>
 </body>
 </html>
