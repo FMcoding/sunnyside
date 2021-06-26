@@ -79,6 +79,10 @@ section {
 }
 
 .info-mobile-container-toggled { 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
     visibility: visible;
     z-index: 1;
 }
