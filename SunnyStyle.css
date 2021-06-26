@@ -81,10 +81,9 @@ section {
 .info-mobile-container-toggled { 
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 500px;
     position: absolute;
     visibility: visible;
-    border: 2px solid red;
     z-index: 1;
 }
 
