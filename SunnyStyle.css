@@ -179,7 +179,7 @@ section {
     font-size: 18px;
 }
 
-.egg-msg p:nth-of-type(3) {
+.learn-y p:first-of-type {
     text-transform: uppercase;
     font-family: "Fraunces";
     font-weight: bold;
@@ -235,7 +235,7 @@ section {
     font-size: 18px;
 }
 
-.stand-out-msg p:nth-of-type(3) {
+.learn-r p:first-of-type {
     text-transform: uppercase;
     font-family: "Fraunces";
     font-weight: 900;
